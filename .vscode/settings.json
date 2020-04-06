@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.checkstyle.configuration": "${workspaceFolder}\\.lift\\checkstyle-coursera.xml"
+}
