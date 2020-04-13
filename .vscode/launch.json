@@ -6,37 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Deque",
+            "request": "launch",
+            "mainClass": "Deque",
+            "projectName": "coursera_f67b8fd9"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-InteractivePercolationVisualizer<coursera_f67b8fd9>",
-            "request": "launch",
-            "mainClass": "InteractivePercolationVisualizer",
-            "projectName": "coursera_f67b8fd9"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-Percolation<coursera_f67b8fd9>",
-            "request": "launch",
-            "mainClass": "Percolation",
-            "projectName": "coursera_f67b8fd9"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-PercolationStats<coursera_f67b8fd9>",
-            "request": "launch",
-            "mainClass": "PercolationStats",
-            "projectName": "coursera_f67b8fd9"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-PercolationVisualizer<coursera_f67b8fd9>",
-            "request": "launch",
-            "mainClass": "PercolationVisualizer",
-            "projectName": "coursera_f67b8fd9"
         }
     ]
 }
