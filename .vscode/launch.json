@@ -6,6 +6,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Permutation",
+            "request": "launch",
+            "mainClass": "Permutation",
+            "projectName": "coursera_f67b8fd9",
+            "args": "4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RandomizedQueue",
+            "request": "launch",
+            "mainClass": "RandomizedQueue",
+            "projectName": "coursera_f67b8fd9"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Deque",
             "request": "launch",
             "mainClass": "Deque",

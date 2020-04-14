@@ -112,13 +112,14 @@ public class Deque<Item> implements Iterable<Item> {
 
         public void remove()
         {
+            throw new UnsupportedOperationException();
         }
 
         public Item next() {
             if (!hasNext()) {
                 throw new java.util.NoSuchElementException();
             }
-            Item currentItem = current.item;
+            final Item currentItem = current.item;
             current = current.next;
             return currentItem;
 
@@ -169,8 +170,7 @@ public class Deque<Item> implements Iterable<Item> {
         }
 
         final String popped = strings.removeLast();
-        if(popped != "Two")
-        {
+        if (popped != "Two") {
             StdOut.printf("Popped String should be 'Two', but it is %s\n", popped);
         }
 
@@ -178,7 +178,14 @@ public class Deque<Item> implements Iterable<Item> {
         strings.addLast("Three");
         strings.addFirst("Zero");
 
-        for(String s : strings){
+        for (final String s : strings) {
+            StdOut.printf("%s\n",s);
+        }
+
+        strings.removeFirst();
+        strings.removeLast();
+
+        for (final String s : strings) {
             StdOut.printf("%s\n",s);
         }
 
